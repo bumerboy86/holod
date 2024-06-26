@@ -1,0 +1,31 @@
+.text-container {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(var(--white-gray-strong), 0.4);
+
+  h2 {
+    font-size: 30px;
+    font-family: Fira Sans, sans-serif;
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 31px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 300;
+    color: rgba(var(--second-txt), 1);
+  }
+
+  @media (min-width: 992px) {
+    background: rgba(var(--white-gray), 1);
+    text-align: left;
+
+    h2 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+}

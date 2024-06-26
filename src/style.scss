@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: rfba(var(--black), 1);
+}
+
+:root {
+  --primary: #d81324;
+  --secondary: #0b2154;
+  --light: #f2f2f2;
+  --white: rgb(252, 252, 252);
+  --dark: #111111;
+  --font-family-base: "Ubuntu", sans-serif;
+  --headings-font-family: "Barlow", sans-serif;
+  --body-color: #596277;
+
+  color: rgb(31, 80, 161);
+  --color-blue: 31, 80, 161;
+
+  color: rgb(250, 122, 42);
+  --color-orange: 250, 122, 42;
+
+  color: rgb(220, 50, 73);
+  --pink: 220, 50, 73;
+
+  color: rgb(255, 255, 255);
+  --color-white: 255, 255, 255;
+
+  color: rgb(255 233 233);
+  --light-gray: 255, 233, 233;
+
+  color: rgb(218 218 218);
+  --white-gray-strong: 218, 218, 218;
+
+  color: rgb(249, 249, 249);
+  --white-gray: 249, 249, 249;
+
+  color: rgb(34, 34, 34);
+  --black: 34, 34, 34;
+
+  color: rgb(32, 33, 36);
+  --black-footer: 32, 33, 36;
+
+  color: rgb(80, 80, 80);
+  --second-txt: 80, 80, 80;
+
+  color: rgb(44, 44, 44);
+  --gray: 44, 44, 44;
+
+  --color-i8iw3qehr: 220, 50, 73;
+  --color-ijomolut2: 255, 255, 255;
+  --color-i3vl01x3n: 255, 255, 255;
+  --color-ikkdk8c0r: 255, 255, 255;
+  --color-iup3c7lgu: 255, 255, 255;
+  font-family: var(--font-family-base);
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--white);
+}
+
+.container {
+  padding: 50px 20px;
+}

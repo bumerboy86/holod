@@ -1,0 +1,20 @@
+.bread-crumbs {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  flex-direction: column;
+  padding: 50px 20px 0px;
+
+  &__lnk {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgba(var(--pink), 1);
+    border-bottom: 2px solid rgba(var(--pink), 1);
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 600;
+  }
+}

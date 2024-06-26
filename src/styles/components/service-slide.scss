@@ -1,0 +1,38 @@
+.service-slide {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: right;
+  height: 260px;
+  padding: 22px;
+  gap: 18px;
+  text-align: right;
+  color: rgba(var(--color-white), 1);
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__numeration {
+    position: relative;
+  }
+
+  &__circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(var(--light-gray), 0.4);
+    right: 0;
+  }
+
+  &__num {
+    font-size: 106px;
+    position: absolute;
+    font-weight: 700;
+    color: rgba(var(--color-orange), 1);
+    top: -8px;
+    right: 37px;
+  }
+}

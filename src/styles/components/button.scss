@@ -1,0 +1,11 @@
+.btn {
+  color: var(--white);
+  padding: 10px 20px;
+  background: var(--primary);
+  width: max-content;
+  cursor: pointer;
+
+  i {
+    margin-left: 8px;
+  }
+}

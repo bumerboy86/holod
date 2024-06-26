@@ -1,0 +1,44 @@
+.service-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  max-width: 350px;
+
+  &__price {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__image {
+    max-height: 250px;
+    overflow: hidden;
+  }
+
+  &__my-node-enter {
+    opacity: 0;
+  }
+  &__my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  &__my-node-exit {
+    opacity: 1;
+  }
+  &__my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  &__btn {
+    cursor: pointer;
+    border: none;
+    background: rgba(var(--gray), 1);
+    padding: 10px 20px;
+    color: rgba(var(--color-white), 1);
+  }
+
+  &__btn_back {
+    background: rgba(var(--pink), 1);
+  }
+}

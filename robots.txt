@@ -1,0 +1,13 @@
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: *
+Disallow: /*gclid=*
+
+Sitemap: https://wheel-service.kz/sitemap.xml

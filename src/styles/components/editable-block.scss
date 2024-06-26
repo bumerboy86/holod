@@ -1,0 +1,8 @@
+.editable-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: rgba(var(--color-orange), 1);
+  padding: 30px 20px;
+  color: rgba(var(--color-white), 1);
+}

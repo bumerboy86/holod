@@ -1,0 +1,39 @@
+.price-page {
+  &__container {
+    padding: 20px;
+  }
+
+  &__grid {
+    display: grid;
+    align-items: start;
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  &__grid-title {
+    grid-column: 1 / span;
+    grid-row: 1;
+  }
+
+  @media (min-width: 610px) {
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__grid-title {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+    }
+  }
+
+  @media (min-width: 960px) {
+    &__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__grid-title {
+      grid-column: 1 / span 3;
+      grid-row: 1;
+    }
+  }
+}

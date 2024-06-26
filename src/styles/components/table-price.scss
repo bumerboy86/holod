@@ -1,0 +1,32 @@
+.table-price {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+
+    &_title {
+      background: rgba(var(--color-orange, 1));
+      color: rgba(var(--color-white, 1));
+      padding: 8px 0;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    &_item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &_item p {
+      padding-left: 8px;
+      line-height: 120%;
+    }
+
+    &_item p:nth-child(2) {
+      text-align: right;
+    }
+  }
+}
