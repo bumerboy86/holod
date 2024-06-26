@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route index path='/' element={<MainPage />} />
-          <Route index path='/our-services' element={<ServicePage />} />
+          <Route index path='/holod' element={<MainPage />} />
+          <Route index path='/holod/our-services' element={<ServicePage />} />
           {/* <Route index path='/price' element={<PricePage />} /> */}
-          <Route index path='/contacts' element={<ContactsPage />} />
+          <Route index path='/holod/contacts' element={<ContactsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
