@@ -9,7 +9,7 @@ type BreadCrumbsProps = {
 };
 
 export const BreadCrumbs: FC<BreadCrumbsProps> = ({
-  link = "/",
+  link = "/holod",
   subtext,
   title,
 }) => {

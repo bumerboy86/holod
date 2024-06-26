@@ -65,54 +65,54 @@ export const MainPage = () => {
       </TextContainer>
       <GridContainer>
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Заправка кондиционеров'
           image={condition3}
         />
         <LinkUniversal link='/our-services' title='Ремонт кондиционеров' image={condition} />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Установка кондиционеров'
           image={condition2}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Ремонт газовых котлов'
           image={hotwater}
         />
         <LinkUniversal link='/our-services' title='Ремонт холодильников' image={freezer} />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Заправка холодильников'
           image={freezer}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Ремонт морозильных камер'
           image={freez}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Ремонт стиральных машин'
           image={washing}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Ремонт ледогенераторов'
           image={ice}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Ремонт бытовых плат'
           image={plate}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Консультация'
           image={repair}
         />
         <LinkUniversal
-          link='/our-services'
+          link='/holod/our-services'
           title='Подбор запчастей'
           image={parts}
         />

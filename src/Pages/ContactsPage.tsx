@@ -15,7 +15,7 @@ export const ContactsPage = () => {
           txt='Всем клиентам, оформившим заявку с сайта, консультация бесплатно!'
         />
       </section>
-      <BreadCrumbs link='/' subtext='Главная' title='Контакты' />
+      <BreadCrumbs link='/holod' subtext='Главная' title='Контакты' />
       <section className='contacts-page__container'>
         <dl className='contacts-page__dl'>
           <dt>GRAND -service- COOLNESS</dt>

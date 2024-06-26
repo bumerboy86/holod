@@ -25,19 +25,19 @@ export const TopNav = () => {
           <li className='navbar__close'>
             <small className='navbar__close-btn' onClick={toogleHide}></small>
           </li>
-          <li className='navbar__txt' onClick={() => navHandler("/")}>
+          <li className='navbar__txt' onClick={() => navHandler("/holod")}>
             Главная
           </li>
           <li
             className='navbar__txt'
-            onClick={() => navHandler("/our-services")}
+            onClick={() => navHandler("/holod/our-services")}
           >
             Услуги
           </li>
           {/* <li className='navbar__txt' onClick={() => navHandler("/price")}>
             Прайс-лист
           </li> */}
-          <li className='navbar__txt' onClick={() => navHandler("/contacts")}>
+          <li className='navbar__txt' onClick={() => navHandler("/holod/contacts")}>
             Контакты
           </li>
         </ul>
