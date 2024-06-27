@@ -104,6 +104,12 @@
     }
   }
 
+  @media (min-width: 500px) {
+    &__call-slider {
+      width: 400px;
+    }
+  }
+
   @media (min-width: 992px) {
     min-height: 400px;
     &__title {
@@ -138,7 +144,7 @@
       }
 
       h2 {
-        font-size: 65px;
+        font-size: 50px;
       }
       &_btn {
         font-size: 24px;
@@ -148,8 +154,14 @@
 
   @media (min-width: 1200px) {
     &__call-slider {
-      max-width: 450px;
+      max-width: 470px;
       width: 100%;
+    }
+
+    &__call-block {
+      h2 {
+        font-size: 50px;
+      }
     }
   }
 }
