@@ -28,7 +28,7 @@ export const ServicePage = () => {
           txt='Всем клиентам, оформившим заявку с сайта, консультация бесплатно!'
         />
       </section>
-      <BreadCrumbs link='/' subtext='Главная' title='Услуги' />
+      <BreadCrumbs link='/holod' subtext='Главная' title='Услуги' />
       <section className='servise-page__grid container'>
         <ServiceDesc
           title='Заправка кондиционеров:'

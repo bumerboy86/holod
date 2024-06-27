@@ -17,7 +17,7 @@ export const PricePage = () => {
           txt='Всем клиентам, оформившим заявку с сайта, консультация бесплатно!'
         />
       </section>
-      <BreadCrumbs link='/' subtext='Главная' title='Прайс-Лист' />
+      <BreadCrumbs link='/holod' subtext='Главная' title='Прайс-Лист' />
 
       <section className='price-page__grid'>
         <h2 className='price-page__grid-title'>
