@@ -10,7 +10,7 @@ export const Widjet = () => {
   return (
     <div className={`widjet ${!show ? 'widjet__hidden' : ''}`}>
         <span className="widjet__show_btn" onClick={showHandler}>
-          <i className={`bi bi-dice-${show ? '1': '3'}`}></i>
+          <i className={`bi ${show ? 'bi-dice-1': 'bi-dice-3'}`}></i>
         </span>
         <div className="widjet__content">
         <a href="tel:+77473028989" className="footer__social">
