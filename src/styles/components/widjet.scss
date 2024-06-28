@@ -40,4 +40,9 @@
       justify-content: center;
       align-items: flex-start;
     }
+
+    @media (min-width: 992px) {
+      display: none;
+    }
   }
+
