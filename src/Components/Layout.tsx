@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import "../styles/components/layout.scss";
 import { TopNav } from "./TopNav";
 import { Footer } from "./Footer";
+import { Widjet } from "./Widjet";
 
 export const Layout = () => {
   return (
@@ -13,6 +14,7 @@ export const Layout = () => {
         <Outlet />
       </section>
       <Footer />
+      <Widjet />
     </main>
   );
 };
